@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d78d8fa8-6744-40dc-92fd-e42e4ca90303">
+  <producedTypes>
+    <objectType typeId="a32a1a0d-11e8-4da8-ac0d-987b4aac1077" valueTypeId="1e6d8427-71cf-4f32-b62f-7a5a25f957a4"/>
+    <refType typeId="7f97d629-efdc-45a7-8c0c-4f4d6a4a12f7" valueTypeId="2c2e0d95-a1cc-40c8-bebf-9cb5ac9e108a"/>
+    <selectionType typeId="c8d058eb-1e96-44c8-81e4-11ac607ee832" valueTypeId="a95b2f0f-f7c0-41d0-998e-83fcde444c3a"/>
+    <listType typeId="37219270-9d72-43df-9564-535fe5544e9d" valueTypeId="6638b3ae-beb1-4894-a19c-688401c48008"/>
+    <managerType typeId="9e9402b8-0173-4bfc-b494-dab737b125ef" valueTypeId="9055b5ab-39c7-4ff1-ad30-131c1ecc8f1f"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграммБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграмм боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_УведомленияТелеграммБоту.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="bcfd5698-c129-4158-8483-d3e6ff6754cb">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3bd1b026-92eb-46d7-98c6-8590227f1000">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
